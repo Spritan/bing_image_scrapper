@@ -1,7 +1,7 @@
 import setuptools
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+with open(file="README.md", mode="r") as fh:
+    long_description: str = fh.read()
 
 setuptools.setup(
     name="bing_image_downloader",

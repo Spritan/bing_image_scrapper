@@ -1,1 +1,1 @@
-name = "bing_image_downloader"
+name = "bing_image_scrapper"

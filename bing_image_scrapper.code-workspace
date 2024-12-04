@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.analysis.inlayHints.callArgumentNames": "all",
+		"python.analysis.inlayHints.functionReturnTypes": true,
+		"python.analysis.inlayHints.pytestParameters": true,
+		"python.analysis.regenerateStdLibIndices": true,
+		"python.analysis.inlayHints.variableTypes": true,
+		"python.analysis.typeEvaluation.deprecateTypingAliases": true,
+		"python.analysis.typeEvaluation.enableExperimentalFeatures": true,
+		"python.analysis.typeEvaluation.disableBytesTypePromotions": true,
+		"python.globalModuleInstallation": true,
+		"python.terminal.activateEnvInCurrentTerminal": true,
+		"python.terminal.shellIntegration.enabled": true,
+		"python.analysis.autoFormatStrings": true,
+		"python.analysis.autoImportCompletions": true,
+		"python.analysis.completeFunctionParens": true,
+		"python.analysis.completionOverrideExperiment": true,
+		"python.analysis.enableSyncServer": true,
+		"python.analysis.logLevel": "Trace",
+		"python.analysis.supportDocstringTemplate": true,
+		"python.analysis.typeCheckingMode": "strict",
+		"python.analysis.typeEvaluation.enableReachabilityAnalysis": true,
+		"python.analysis.typeEvaluation.strictDictionaryInference": true,
+		"python.analysis.typeEvaluation.strictListInference": true,
+		"python.analysis.typeEvaluation.strictSetInference": true,
+		"python.createEnvironment.contentButton": "show",
+		"debugpy.showPythonInlineValues": false,
+		"autoDocstring.docstringFormat": "numpy"
+	}
+}

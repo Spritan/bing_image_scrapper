@@ -1,0 +1,26 @@
+download:
+  max_concurrent: 5
+  batch_size: 10
+  timeout: 60
+  max_retries: 3
+  valid_extensions:
+    - jpg
+    - jpeg
+    - png
+    - webp
+    - gif
+
+image:
+  max_size: 1920
+  min_size: 100
+  max_file_size: 10485760  # 10MB
+
+rate_limiting:
+  min_delay: 1.0
+  max_delay: 3.0
+  requests_per_window: 10
+  window_size: 60
+
+memory:
+  max_memory_mb: 500
+  cleanup_threshold: 0.8 
